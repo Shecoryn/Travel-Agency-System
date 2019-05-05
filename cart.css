@@ -1,0 +1,53 @@
+div.centerText {
+	text-align: center;
+	font-family: "Courier New", Courier, monospace;
+}
+body {
+	background: url(SeoulCity.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;	
+}
+h1.custHead {
+	background-color: #000000;
+	color: white;
+	opacity: 0.7;
+}
+.buttonCustom {
+	background-color: white;
+	color: black;
+	border: 2px solid #FA62E6;
+	-webkit-transition-duration: 0.4s; /* Safari */
+	transition-duration: 0.4s;
+	border-radius: 8px;
+}
+.buttonCustom:hover {
+  background-color: #FA62E6;
+  color: white;
+}
+#orgTab {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#orgTab td, #orgTab th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#orgTab tr:nth-child(even){
+	background-color: #f2f2f2;
+}
+
+#orgTab tr:hover {
+	background-color: #ddd;
+}
+
+#orgTab th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #FA62E6;
+  color: white;
+}
